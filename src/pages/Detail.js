@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Content, Row, Col } from '../modules/Grid';
+import React, { useState } from 'react'
+import { Content, Row, Col } from '../modules/Grid'
 import monsters from '../monstersdata.json'
-import { useHistory } from "react-router-dom";
+import { useHistory } from 'react-router-dom'
 import texture from '../img/texture.jpg'
 
 
@@ -12,7 +12,7 @@ export const BackButton = () => {
     let history = useHistory();
     return (
         <>
-          <button className='btn btn-main' onClick={() => history.goBack()}> <i className="fas fa-arrow-left"></i>&nbsp;&nbsp;&nbsp; Voltar</button>
+          <button className='btn btn-main' onClick={() => history.goBack()}> <i className='fas fa-arrow-left'></i>&nbsp;&nbsp;&nbsp; Voltar</button>
         </>
     );
 };

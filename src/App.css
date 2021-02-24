@@ -85,11 +85,19 @@ body { background-color: var(--color-base); font-family:var(--support-font)}
 .op-2 { opacity: 0.5; }
 .op-3 { opacity: 0.75; }
 
+/* Formularios */
+
+
+
 /* Compontentes */
 
 .btn-main { border: solid 1px var(--color-support); border-radius: 18px; color: var(--color-support); background-color: none !important; padding: 8px 25px; transition: 0.8s; }
 .btn-main:hover { transform: scale(1.08); transition: 0.8s; color: var(--color-support-b); border: solid 1px var(--color-support-b); }
 button.btn-main { background-color: none !important; }
+
+.btn-support { border: solid 1px var(--color-base); border-radius: 18px; color: var(--color-base); background-color: none !important; padding: 8px 25px; transition: 0.8s; }
+.btn-support:hover { transform: scale(1.08); transition: 0.8s; color: var(--color-base-b); border: solid 1px var(--color-base-b); }
+button.btn-support { background-color: none !important; }
 
 .bg-dark-card-25 { background-color: #00000025; }
 .bg-dark-card-50 { background-color: #00000050; }
