@@ -26,7 +26,7 @@ function Search(props){
           type={monster.type} 
           size={monster.size} 
           cr={monster.cr} 
-          aligment={monster.aligment} 
+          alignment={monster.alignment} 
           imgSrc={monster.imgSrc} 
         /> 
       </Col>

@@ -52,7 +52,7 @@ export default function Header(props){
                         <Link to='/criar' className=''>
                             <button className='btn btn-support'>
                                 
-                                    <i class='fas fa-plus-circle'></i> Criar monstro
+                                    <i className='fas fa-plus-circle'></i> Criar monstro
 
                             </button>
                         </Link>

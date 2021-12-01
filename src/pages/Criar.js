@@ -2,7 +2,7 @@ import React from  'react'
 import { Content, Col, Row } from '../modules/Grid'
 import { BackButton } from './Detail'
 import texture from '../img/texture.jpg'
-import FormMonstro from '../modules/FormMonstro'
+import FormCriar from '../modules/FormCriar'
 
 
 
@@ -24,7 +24,7 @@ export default function Criar(){
 
                                 <h2 className='detail-titles'>Criar monstro  </h2>
                                 
-                                <FormMonstro />
+                                <FormCriar />
 
                             </div>
                         </div>

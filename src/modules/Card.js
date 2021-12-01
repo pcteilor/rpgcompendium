@@ -12,11 +12,11 @@ export function Card(props){
                     <div className='card-header-custom pt-3'>
 
                     </div>
-
+    
                     <div className='card-content p-4'>
                         <p className='monster-category p-0 m-0'>{props.type}  .  {props.size}</p>
                         <h2 className='monster-name'>{props.name}</h2>
-                        <p className='monster-quote'>ND {props.cr}  .  {props.aligment}</p>
+                        <p className='monster-quote'>ND {props.cr}  .  {props.alignment}</p>
                     </div>
 
 

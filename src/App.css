@@ -87,7 +87,9 @@ body { background-color: var(--color-base); font-family:var(--support-font)}
 
 /* Formularios */
 
-
+.input-base { border: none; border-radius: 16px; padding: 10px 20px; background-color: #00000010; transition: 0.8s; }
+.input-base::placeholder { font-size: 0.8rem; font-style: italic; letter-spacing: 0.02rem;}
+.text-label { font-family: var(--support-font); font-size: 0.8rem; color:var(--color-gray); }
 
 /* Compontentes */
 

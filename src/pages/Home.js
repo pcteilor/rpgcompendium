@@ -11,13 +11,14 @@ const cardRender = monsters.map(
     (monster)=>
     <Col col='col-md-3' key={monster.id}>
       <Card 
+        
         id={monster.id}
         key={monster.id}
         name={monster.name} 
         type={monster.type} 
         size={monster.size} 
         cr={monster.cr} 
-        aligment={monster.aligment} 
+        alignment={monster.alignment} 
         imgSrc={monster.imgSrc} 
       /> 
     </Col>

@@ -45,7 +45,7 @@ export default function Detail({match, props}) {
                                     {monster.name}
                                 </h1>
                                 <h3 className='detail-titles'>
-                                    Nível {monster.D20.monsterLevel}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; {monster.type}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; {monster.aligment}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; ND {monster.cr}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; Tamanho {monster.size}
+                                    Nível {monster.D20.monsterLevel}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; {monster.type}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; {monster.alignment}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; ND {monster.cr}&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp; Tamanho {monster.size}
                                 </h3>
                                 <p className='detail-text py-5'>
                                     {monster.desc}
