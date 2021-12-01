@@ -26,17 +26,17 @@ export default function Header(props){
     return(
         <Content container='container-fluid bg-support'>
             <Content container='container'>
-                <Row>
-                    <Col col='col-2 py-3 align-self-center'>
+                <Row Row="justify-content-center">
+                    <Col col='col-md-2 py-3 align-self-center text-center'>
                         <Link to='/'>
                             <img src={logo} alt='Monster Compendium' className='img-fluid px-3' />
                         </Link>
                     </Col>
-                    <Col col='col-8 py-3 align-self-center'>
+                    <Col col='col-md-8 py-3 align-self-center'>
                         <div className='search-header py-3'>
-                            <span className='px-4'><i className='fas fa-search'></i></span>
+                            <span className='px-4 float'><i className='fas fa-search'></i>
                             <input 
-                            className='input-searchbar h-100' 
+                            className='input-searchbar h-100 px-2' 
                             id='searchbar' 
                             type='text' 
                             placeholder='Pesquise aqui...' 
@@ -45,10 +45,10 @@ export default function Header(props){
                             onChange={handleChange}
                             
                             
-                            />
+                            /></span>
                         </div>
                     </Col>
-                    <Col col='col-2 py-3 align-self-center'>
+                    <Col col='col-md-2 py-3 align-self-center text-center'>
                         <Link to='/criar' className=''>
                             <button className='btn btn-support'>
                                 

@@ -41,7 +41,7 @@ export default function Detail({match, props}) {
                                 
                             </div>
                             <div style={{backgroundImage:`url(${texture})`, backgroundPosition: 'center top', backgroundRepeat: 'repeat-x'}} className='p-5'>
-                                <h1 className='detail-titles'>
+                                <h1 className='detail-titles inside'>
                                     {monster.name}
                                 </h1>
                                 <h3 className='detail-titles'>
